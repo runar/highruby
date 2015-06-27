@@ -3,7 +3,10 @@ GEM
   specs:
     celluloid (0.16.0)
       timers (~> 4.0.0)
+    codeclimate-test-reporter (0.4.7)
+      simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.0)
+    docile (1.1.5)
     ffi (1.9.8)
     formatador (0.2.5)
     guard (2.12.4)
@@ -24,6 +27,7 @@ GEM
       guard (~> 2.0)
       spoon
     hitimes (1.2.2)
+    json (1.8.3)
     listen (2.10.0)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
@@ -55,6 +59,11 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     shellany (0.0.1)
+    simplecov (0.10.0)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -74,6 +83,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  codeclimate-test-reporter (~> 0.4)
   guard (~> 2.12)
   guard-minitest (~> 2.4)
   guard-shotgun (~> 0.4)

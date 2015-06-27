@@ -7,6 +7,7 @@ gem 'sinatra', '~> 1.4'
 gem 'sinatra-param', '~> 1.4', require: 'sinatra/param'
 
 group :development, :test do
+  gem 'codeclimate-test-reporter', '~> 0.4', require: nil
   gem 'guard', '~> 2.12'
   gem 'guard-minitest', '~> 2.4'
   gem 'guard-shotgun', '~> 0.4'
